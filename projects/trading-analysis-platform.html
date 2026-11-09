@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Trading Analysis Platform · Varun Pritham</title>
+  <meta name="description" content="A planned personal platform for analyzing markets, macroeconomic data and company fundamentals — putting CFA learning into practice.">
+  <script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <script src="../script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="../index.html"><span class="logo-mark">VP</span><span class="logo-name">Varun Pritham</span></a>
+      <nav class="nav" id="nav">
+        <a href="../index.html">Home</a>
+        <a href="../ideas.html" aria-current="page">Ideas</a>
+        <a href="../blog.html">Writing</a>
+        <a href="../shelf.html">Shelf</a>
+        <a href="../resume.html">Resume</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+        <button class="icon-btn menu-btn" data-menu-toggle aria-label="Menu" aria-controls="nav" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap project-page">
+    <section class="page-head">
+      <a class="link-arrow muted reveal" href="../ideas.html" style="font-size:.9rem"><span>←</span> Ideas</a>
+      <div class="reveal" style="margin-top:20px"><span class="status">Idea</span></div>
+      <h1 class="reveal">Personal Trading Analysis Platform</h1>
+      <p class="reveal">One place to pull together market prices, economic data and company financials, and analyze them myself.</p>
+    </section>
+
+    <div class="project-hero g2 reveal">
+      <svg viewBox="0 0 320 120" fill="none" aria-hidden="true">
+        <path d="M0 96 L32 82 L64 89 L96 62 L128 70 L160 46 L192 56 L224 31 L256 39 L288 20 L320 12 V120 H0 Z" fill="rgba(255,255,255,.14)"/>
+        <polyline points="0,96 32,82 64,89 96,62 128,70 160,46 192,56 224,31 256,39 288,20 320,12" stroke="rgba(255,255,255,.95)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="320" cy="12" r="5" fill="#fff"/>
+      </svg>
+    </div>
+
+    <!-- ================= WHY ================= -->
+    <section class="section">
+      <div class="section-head reveal"><div><span class="eyebrow">Why</span><h2>Learning, put into practice</h2></div></div>
+      <div class="prose reveal">
+        <p>I'm currently pursuing the CFA. This project is how I plan to turn what I'm learning into practice: working with real data instead of only textbook examples.</p>
+        <p>The goal is a personal platform that brings together the data I care about: global markets, the US economy, commodities, currencies, crypto and company fundamentals. With it, I can test ideas, spot connections, and build my own view of what's happening.</p>
+      </div>
+    </section>
+
+    <!-- ================= ROADMAP ================= -->
+    <section class="section" style="padding-top:0">
+      <div class="section-head reveal"><div><span class="eyebrow">Roadmap</span><h2>Built in phases</h2></div></div>
+      <!-- EDIT: change a phase's tag to "In progress" or "Done" as you go -->
+      <div class="phases">
+        <div class="phase reveal">
+          <div><h3>US macro dashboard</h3><p>Inflation, jobs, growth, interest rates and sentiment, from official government sources.</p></div>
+          <span class="tag">Planned</span>
+        </div>
+        <div class="phase reveal">
+          <div><h3>Global markets</h3><p>Major country indexes, currencies, commodities and crypto, tracked daily.</p></div>
+          <span class="tag">Planned</span>
+        </div>
+        <div class="phase reveal">
+          <div><h3>Company fundamentals</h3><p>Financial statements for S&amp;P 500 companies, ready for ratio and valuation analysis.</p></div>
+          <span class="tag">Planned</span>
+        </div>
+        <div class="phase reveal">
+          <div><h3>Global trade &amp; shipping</h3><p>Port activity, freight rates and trade flows as a real-time read on the global economy.</p></div>
+          <span class="tag">Planned</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= DATA ================= -->
+    <section class="section" style="padding-top:0">
+      <div class="section-head reveal"><div><span class="eyebrow">Data</span><h2>What I plan to track</h2></div></div>
+      <div class="data-grid">
+        <div class="data-card reveal">
+          <div class="icon">🏛</div>
+          <h3>US economy</h3>
+          <ul><li>Inflation: CPI, PCE</li><li>Jobs: payrolls, unemployment, jobless claims</li><li>GDP, retail sales, housing starts</li><li>Money supply, consumer sentiment</li></ul>
+          <div class="src"><strong>Sources:</strong> FRED, BLS, BEA</div>
+        </div>
+        <div class="data-card reveal">
+          <div class="icon">％</div>
+          <h3>Interest rates &amp; credit</h3>
+          <ul><li>Treasury yield curve</li><li>Fed funds &amp; global policy rates</li><li>Corporate bond spreads</li><li>Volatility: VIX, MOVE</li></ul>
+          <div class="src"><strong>Sources:</strong> FRED, US Treasury</div>
+        </div>
+        <div class="data-card reveal">
+          <div class="icon">🌐</div>
+          <h3>Global stock indexes</h3>
+          <ul><li>US, China, Japan, Hong Kong, India</li><li>UK, France, Germany, Canada, Taiwan</li></ul>
+          <div class="src"><strong>Sources:</strong> Stooq, Yahoo Finance</div>
+        </div>
+        <div class="data-card reveal">
+          <div class="icon">📊</div>
+          <h3>S&amp;P 500 fundamentals</h3>
+          <ul><li>Income statement, balance sheet, cash flow</li><li>Margins, growth and valuation ratios</li></ul>
+          <div class="src"><strong>Sources:</strong> SEC EDGAR</div>
+        </div>
+        <div class="data-card reveal">
+          <div class="icon">⛏</div>
+          <h3>Commodities</h3>
+          <ul><li>Energy: crude oil, natural gas</li><li>Precious metals: gold, silver, platinum</li><li>Industrial metals: copper, aluminum, nickel</li><li>Agriculture: grains, softs, livestock</li><li>Trader positioning (COT report)</li></ul>
+          <div class="src"><strong>Sources:</strong> EIA, World Bank, CFTC</div>
+        </div>
+        <div class="data-card reveal">
+          <div class="icon">🚢</div>
+          <h3>Shipping &amp; trade</h3>
+          <ul><li>Port calls and trade volumes</li><li>Container freight rates</li><li>Country-to-country trade flows</li></ul>
+          <div class="src"><strong>Sources:</strong> IMF PortWatch, Drewry, UN Comtrade</div>
+        </div>
+        <div class="data-card reveal">
+          <div class="icon">💱</div>
+          <h3>Currencies</h3>
+          <ul><li>US dollar index</li><li>Major pairs: EUR, JPY, GBP</li><li>Emerging markets: INR, CNY, BRL</li></ul>
+          <div class="src"><strong>Sources:</strong> FRED, ECB</div>
+        </div>
+        <div class="data-card reveal">
+          <div class="icon">₿</div>
+          <h3>Crypto</h3>
+          <ul><li>Bitcoin, Ethereum and major coins</li><li>Market cap and trading volume</li></ul>
+          <div class="src"><strong>Sources:</strong> CoinGecko</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="note-box reveal">
+      This project is still an idea. I'll share progress and write about each phase on the <a href="../blog.html">Writing</a> page as I build it.
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Varun Pritham</span>
+      <span><a href="mailto:kcs.varun@gmail.com">Email</a><a href="https://www.linkedin.com/in/varun-pritham">LinkedIn</a><a href="https://github.com/VarunPritham">GitHub</a></span>
+    </div>
+  </footer>
+</body>
+</html>

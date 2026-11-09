@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume · Varun Pritham</title>
+  <script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html"><span class="logo-mark">VP</span><span class="logo-name">Varun Pritham</span></a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="ideas.html">Ideas</a>
+        <a href="blog.html">Writing</a>
+        <a href="shelf.html">Shelf</a>
+        <a href="resume.html" aria-current="page">Resume</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+        <button class="icon-btn menu-btn" data-menu-toggle aria-label="Menu" aria-controls="nav" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="page-head">
+      <span class="eyebrow reveal">Resume</span>
+      <h1 class="reveal">Experience</h1>
+      <p class="reveal">Software engineer with an MS in Computer Science and 5+ years building data-heavy systems, from retail systems at Deloitte to Databricks, AWS and applied AI at a global bank. CFA Level I passed, Level II candidate.</p>
+      <div class="reveal" style="margin-top:24px"><a class="btn btn-primary" href="https://www.linkedin.com/in/varun-pritham">View on LinkedIn <span>→</span></a></div>
+    </section>
+
+    <div class="resume-grid">
+      <aside class="reveal">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:kcs.varun@gmail.com">kcs.varun@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/varun-pritham">LinkedIn</a></li>
+        </ul>
+        <h4>Location</h4>
+        <ul><li class="muted">Jersey City, NJ</li></ul>
+        <h4>Certifications</h4>
+        <ul>
+          <li class="muted">AWS Solutions Architect – Associate</li>
+          <li class="muted">AWS Data Engineer – Associate</li>
+          <li class="muted">Databricks Data Engineer Associate</li>
+          <li class="muted">Apache Airflow 2 Fundamentals</li>
+        </ul>
+        <h4>CFA Program</h4>
+        <ul><li class="muted">Level I passed</li><li class="muted">Level II candidate (May 2027)</li></ul>
+        <h4>Publication</h4>
+        <ul><li class="muted">Detection of Malpractice in E-exams by Head-pose and Gaze Estimation</li></ul>
+      </aside>
+
+      <div>
+        <div class="resume-block">
+          <h2 class="reveal">Work</h2>
+          <div class="timeline">
+            <div class="job current reveal">
+              <span class="when">Aug 2026 — Present</span>
+              <h3>Software Engineer</h3>
+              <span class="org">Barclays · Whippany, NJ</span>
+              <ul>
+                <li>Manage compute and data placement for a multi-tenant Databricks platform serving 15+ business units, scaling toward 25+.</li>
+                <li>Own tenant connectivity, authentication and deployment strategy for Spark workloads, in partnership with SRE and Network teams.</li>
+                <li>Build repeatable dev and prod environments with AWS CloudFormation and Service Catalog; automate tenant onboarding, including Power BI/Tableau integration, federated catalogs and on-premises connectivity.</li>
+                <li>Developing a multi-LLM evaluation framework on MLflow 3 that compares models and prompt strategies on accuracy and cost, to recommend the most cost-efficient model per use case.</li>
+                <li>Evaluated Lakebridge for automated SQL-to-Databricks migration of legacy workloads.</li>
+              </ul>
+            </div>
+            <div class="job reveal">
+              <span class="when">Sep 2024 — Aug 2026</span>
+              <h3>Technology Developer, Rotational Program</h3>
+              <span class="org">Barclays · Whippany, NJ</span>
+              <ul>
+                <li><strong>Databricks Platform Engineering:</strong> supported compute and data placement for the multi-tenant platform, contributed to infrastructure-as-code, and began building RAG and multi-agent LLM workflows for reporting automation.</li>
+                <li><strong>Basel Regulatory Reporting:</strong> implemented fine-grained monitoring for Basel calculation engines using Elasticsearch and Kibana; analyzed cloud billing with infrastructure teams to optimize resource usage for high-volume regulatory workloads.</li>
+              </ul>
+            </div>
+            <div class="job reveal">
+              <span class="when">Jun 2023 — Aug 2023</span>
+              <h3>Software Engineering Intern</h3>
+              <span class="org">Barclays · Whippany, NJ</span>
+              <ul>
+                <li>Maintained and fixed Java/Spring Boot REST APIs in the fraud-detection platform, including remediating dependency vulnerabilities flagged by Veracode.</li>
+                <li>Tested with Postman and deployed through Jenkins onto OpenShift Kubernetes.</li>
+              </ul>
+            </div>
+            <div class="job reveal">
+              <span class="when">Feb 2019 — Jun 2022</span>
+              <h3>Consultant (Analyst → Consultant)</h3>
+              <span class="org">Deloitte · Hyderabad, India</span>
+              <ul>
+                <li>Delivered 20+ Oracle Retail Merchandising System customizations for a major US retailer using SQL, PL/SQL, Pro*C and shell scripting.</li>
+                <li>Re-engineered IBM Tivoli Workload Scheduler job orchestration, cutting daily job failures by 30%.</li>
+                <li>Led two years of production support, reducing the scheduler failure rate from 40% to 1% by resolving data and vendor-contract issues with cross-functional teams.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-block">
+          <h2 class="reveal">Education</h2>
+          <div class="timeline">
+            <div class="job reveal">
+              <span class="when">2022 — 2024</span>
+              <h3>MS, Computer Science</h3>
+              <span class="org">Rochester Institute of Technology</span>
+            </div>
+            <div class="job reveal">
+              <span class="when">2015 — 2019</span>
+              <h3>BTech, Computer &amp; Communication Engineering</h3>
+              <span class="org">Manipal Institute of Technology</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-block">
+          <h2 class="reveal">Skills</h2>
+          <div class="skill-groups">
+            <div class="skill-group reveal"><h4>Languages</h4><div class="tags"><span class="tag">Python</span><span class="tag">pandas</span><span class="tag">NumPy</span><span class="tag">SQL</span><span class="tag">PL/SQL</span><span class="tag">Shell</span><span class="tag">Pro*C</span><span class="tag">Java / Spring Boot</span></div></div>
+            <div class="skill-group reveal"><h4>Data &amp; AI</h4><div class="tags"><span class="tag">Databricks</span><span class="tag">Spark / PySpark</span><span class="tag">MLflow</span><span class="tag">RAG &amp; agentic workflows</span><span class="tag">Elasticsearch</span><span class="tag">Kibana</span><span class="tag">Query optimization</span></div></div>
+            <div class="skill-group reveal"><h4>Cloud &amp; DevOps</h4><div class="tags"><span class="tag">AWS</span><span class="tag">CloudFormation</span><span class="tag">Service Catalog</span><span class="tag">Linux / Unix</span><span class="tag">Git</span><span class="tag">Jenkins</span><span class="tag">OpenShift Kubernetes</span></div></div>
+            <div class="skill-group reveal"><h4>Finance</h4><div class="tags"><span class="tag">Quantitative methods</span><span class="tag">Equities</span><span class="tag">Fixed income</span><span class="tag">Derivatives</span><span class="tag">Portfolio &amp; risk</span></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Varun Pritham</span>
+      <span><a href="mailto:kcs.varun@gmail.com">Email</a><a href="https://www.linkedin.com/in/varun-pritham">LinkedIn</a><a href="https://github.com/VarunPritham">GitHub</a></span>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Self-Writing Work Journal · Varun Pritham</title>
+  <meta name="description" content="A private work journal that writes itself from email, chats and meetings, and briefs me each morning on where I left off, running entirely inside company tools.">
+  <script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <script src="../script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="../index.html"><span class="logo-mark">VP</span><span class="logo-name">Varun Pritham</span></a>
+      <nav class="nav" id="nav">
+        <a href="../index.html">Home</a>
+        <a href="../ideas.html" aria-current="page">Ideas</a>
+        <a href="../blog.html">Writing</a>
+        <a href="../shelf.html">Shelf</a>
+        <a href="../resume.html">Resume</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+        <button class="icon-btn menu-btn" data-menu-toggle aria-label="Menu" aria-controls="nav" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap project-page">
+    <section class="page-head">
+      <a class="link-arrow muted reveal" href="../ideas.html" style="font-size:.9rem"><span>←</span> Ideas</a>
+      <div class="reveal" style="margin-top:20px"><span class="status">Idea</span></div>
+      <h1 class="reveal">Self-Writing Work Journal</h1>
+      <p class="reveal">A private work journal that fills itself in from my emails, chats and meetings, and every morning tells me exactly where I left off.</p>
+    </section>
+
+    <div class="project-hero g4 reveal">
+      <svg viewBox="0 0 320 120" fill="none" aria-hidden="true">
+        <rect x="100" y="14" width="120" height="92" rx="10" stroke="rgba(255,255,255,.95)" stroke-width="3"/>
+        <g stroke="rgba(255,255,255,.95)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M116 38 l6 6 l10 -12"/><path d="M116 62 l6 6 l10 -12"/>
+        </g>
+        <rect x="116" y="80" width="16" height="14" rx="3" stroke="rgba(255,255,255,.7)" stroke-width="2.5"/>
+        <g stroke="rgba(255,255,255,.6)" stroke-width="3" stroke-linecap="round">
+          <line x1="144" y1="40" x2="200" y2="40"/><line x1="144" y1="64" x2="192" y2="64"/><line x1="144" y1="88" x2="204" y2="88"/>
+        </g>
+        <circle cx="240" cy="30" r="8" fill="rgba(255,255,255,.9)"/>
+        <path d="M232 30 h-8 M248 30 h8 M240 22 v-8 M240 38 v8" stroke="rgba(255,255,255,.6)" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+    </div>
+
+    <!-- ================= WHY ================= -->
+    <section class="section">
+      <div class="section-head reveal"><div><span class="eyebrow">Why</span><h2>Sticky notes don't remember promises</h2></div></div>
+      <div class="prose reveal">
+        <p>Work is scattered across email threads, chats and meetings. A question I promised to answer at 4pm, a review someone is waiting on, a follow-up I meant to send: sticky notes and to-do lists only catch what I remember to write down.</p>
+        <p>Every morning starts with reconstructing yesterday. This idea removes that step: a journal that writes itself as I work, sorts what's done from what's still open, and briefs me the next morning so I can pick things up exactly where I left them.</p>
+      </div>
+    </section>
+
+    <!-- ================= HOW ================= -->
+    <section class="section" style="padding-top:0">
+      <div class="section-head reveal"><div><span class="eyebrow">How it works</span><h2>Fully automatic, start to finish</h2></div></div>
+      <div class="flow">
+        <div class="flow-step reveal"><strong>Work as usual</strong><span>No new app, no extra typing.</span></div>
+        <div class="flow-step reveal"><strong>Captured</strong><span>Emails, chats, meetings and calendar, picked up automatically each evening.</span></div>
+        <div class="flow-step reveal"><strong>Sorted by AI</strong><span>Done, still open, promised, or waiting on others.</span></div>
+        <div class="flow-step reveal"><strong>Written down</strong><span>A page per day in my private journal, searchable later.</span></div>
+        <div class="flow-step reveal"><strong>Morning pickup</strong><span>A short briefing: here's where you left off.</span></div>
+      </div>
+    </section>
+
+    <!-- ================= EXAMPLE ================= -->
+    <section class="section" style="padding-top:0">
+      <div class="section-head reveal"><div><span class="eyebrow">An example</span><h2>The morning briefing</h2></div></div>
+      <div class="callout reveal">
+        <div class="label">Illustration</div>
+        <p>Good morning. Yesterday you left off at:</p>
+        <ul>
+          <li><span>💬 Reply to the onboarding question from the platform team</span><span>Open</span></li>
+          <li><span>📄 Review the infrastructure template</span><span>Waiting on you</span></li>
+          <li><span>🤝 Send the update you promised the network team</span><span>Due Wednesday</span></li>
+          <li><span>📬 Two people replied overnight</span><span>New</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= WHAT IT TRACKS ================= -->
+    <section class="section" style="padding-top:0">
+      <div class="section-head reveal"><div><span class="eyebrow">What it tracks</span><h2>Four lists, kept for me</h2></div></div>
+      <div class="data-grid cols-2">
+        <div class="data-card reveal"><div class="icon">✅</div><h3>Done</h3><ul><li>Replies sent, work shipped, threads closed</li><li>A record for status updates and reviews</li></ul></div>
+        <div class="data-card reveal"><div class="icon">🔄</div><h3>Still open</h3><ul><li>Things I started but didn't finish</li></ul></div>
+        <div class="data-card reveal"><div class="icon">🤝</div><h3>I promised</h3><ul><li>"I'll send it tomorrow", "let me check and get back"</li><li>Commitments spotted in emails, chats and meeting notes</li></ul></div>
+        <div class="data-card reveal"><div class="icon">⏳</div><h3>Waiting on others</h3><ul><li>Questions I asked that nobody has answered yet</li></ul></div>
+      </div>
+    </section>
+
+    <!-- ================= PRIVACY ================= -->
+    <section class="section" style="padding-top:0">
+      <div class="section-head reveal"><div><span class="eyebrow">Privacy &amp; compliance</span><h2>Stays inside the company</h2></div></div>
+      <div class="data-grid cols-2">
+        <div class="data-card reveal"><div class="icon">🏢</div><h3>Company tools only</h3><ul><li>Runs entirely within the company's own Microsoft 365. Nothing is copied to personal apps or outside services</li></ul></div>
+        <div class="data-card reveal"><div class="icon">🔒</div><h3>Private to me</h3><ul><li>The journal lives in my own workspace, visible only to me</li></ul></div>
+        <div class="data-card reveal"><div class="icon">💬</div><h3>Only my conversations</h3><ul><li>Uses only the emails, chats and meetings I'm already part of</li></ul></div>
+        <div class="data-card reveal"><div class="icon">📋</div><h3>Policy-friendly</h3><ul><li>Built on approved tools, following the company's retention and security rules</li></ul></div>
+      </div>
+    </section>
+
+    <!-- ================= ROADMAP ================= -->
+    <section class="section" style="padding-top:0">
+      <div class="section-head reveal"><div><span class="eyebrow">Roadmap</span><h2>Built in phases</h2></div></div>
+      <!-- EDIT: change a phase's tag to "In progress" or "Done" as you go -->
+      <div class="phases">
+        <div class="phase reveal">
+          <div><h3>See what's possible</h3><p>Check which built-in tools are available: the AI assistant, automation flows and their connectors.</p></div>
+          <span class="tag">Planned</span>
+        </div>
+        <div class="phase reveal">
+          <div><h3>Daily journal from email &amp; calendar</h3><p>An automatic page each evening: done, open, promised, waiting.</p></div>
+          <span class="tag">Planned</span>
+        </div>
+        <div class="phase reveal">
+          <div><h3>Add chats &amp; meetings</h3><p>Bring in chat threads and meeting notes, where permissions allow.</p></div>
+          <span class="tag">Planned</span>
+        </div>
+        <div class="phase reveal">
+          <div><h3>Morning briefing &amp; ask-anything</h3><p>A daily "where you left off" message, plus answers to questions like "what did I do on that project last month?"</p></div>
+          <span class="tag">Planned</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="note-box reveal">
+      This project is still an idea. I'll share progress on the <a href="../blog.html">Writing</a> page if and when I build it.
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Varun Pritham</span>
+      <span><a href="mailto:kcs.varun@gmail.com">Email</a><a href="https://www.linkedin.com/in/varun-pritham">LinkedIn</a><a href="https://github.com/VarunPritham">GitHub</a></span>
+    </div>
+  </footer>
+</body>
+</html>

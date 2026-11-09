@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digital Self-Reflection App · Varun Pritham</title>
+  <meta name="description" content="A planned iPhone app and Chrome extension that quietly reflects back what I consume digitally — for self-reflection, not screen-time counting.">
+  <script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <script src="../script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="../index.html"><span class="logo-mark">VP</span><span class="logo-name">Varun Pritham</span></a>
+      <nav class="nav" id="nav">
+        <a href="../index.html">Home</a>
+        <a href="../ideas.html" aria-current="page">Ideas</a>
+        <a href="../blog.html">Writing</a>
+        <a href="../shelf.html">Shelf</a>
+        <a href="../resume.html">Resume</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+        <button class="icon-btn menu-btn" data-menu-toggle aria-label="Menu" aria-controls="nav" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap project-page">
+    <section class="page-head">
+      <a class="link-arrow muted reveal" href="../ideas.html" style="font-size:.9rem"><span>←</span> Ideas</a>
+      <div class="reveal" style="margin-top:20px"><span class="status">Idea</span></div>
+      <h1 class="reveal">Digital Self-Reflection App</h1>
+      <p class="reveal">A quiet mirror for where my attention actually goes, across the apps I choose on my iPhone and laptop.</p>
+    </section>
+
+    <div class="project-hero g5 reveal">
+      <svg viewBox="0 0 320 120" fill="none" aria-hidden="true">
+        <circle cx="160" cy="60" r="46" stroke="rgba(255,255,255,.35)" stroke-width="2"/>
+        <circle cx="160" cy="60" r="30" stroke="rgba(255,255,255,.6)" stroke-width="2.5"/>
+        <circle cx="160" cy="60" r="12" fill="rgba(255,255,255,.95)"/>
+        <path d="M60 60 Q110 22 160 22 T260 60 Q210 98 160 98 T60 60 Z" stroke="rgba(255,255,255,.95)" stroke-width="3" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    <!-- ================= WHY ================= -->
+    <section class="section">
+      <div class="section-head reveal"><div><span class="eyebrow">Why</span><h2>Life is limited. So is attention.</h2></div></div>
+      <div class="prose reveal">
+        <p>Our time is finite, and so is the mind's attention. Left alone, it drifts toward whatever the feed serves next, not where we would choose to point it. Pulling it back to where it should be starts with seeing clearly, and that takes self-reflection.</p>
+        <p>Nearly 30% of each day is now spent on screens. That's a large share of a life, and worth looking at honestly. This app is a mirror for that time: it notices what I actually consume in the apps I choose, so I can look back and decide whether that's where I want my mind to be.</p>
+        <p>It doesn't block or nag, and it isn't another screen-time counter. It's honest data for reflection.</p>
+      </div>
+    </section>
+
+    <!-- ================= HOW ================= -->
+    <section class="section" style="padding-top:0">
+      <div class="section-head reveal"><div><span class="eyebrow">How it works</span><h2>One tap, then it stays out of the way</h2></div></div>
+      <div class="flow">
+        <div class="flow-step reveal"><strong>Open a chosen app</strong><span>A prompt appears when I open any app I've marked to reflect on.</span></div>
+        <div class="flow-step reveal"><strong>One tap</strong><span>I start the session. It covers every chosen app and ends on its own after 10 minutes away.</span></div>
+        <div class="flow-step reveal"><strong>Read on the phone</strong><span>Text is read on the device and images are deleted instantly.</span></div>
+        <div class="flow-step reveal"><strong>Analyzed overnight</strong><span>Uploaded on Wi-Fi in the background and analyzed nightly, or whenever I ask.</span></div>
+        <div class="flow-step reveal"><strong>Reflect</strong><span>A private dashboard on my phone and the web.</span></div>
+      </div>
+    </section>
+
+    <!-- ================= WHAT IT SHOWS ================= -->
+    <section class="section" style="padding-top:0">
+      <div class="section-head reveal"><div><span class="eyebrow">What it shows</span><h2>Four ways to look back</h2></div></div>
+      <div class="data-grid cols-2">
+        <div class="data-card reveal">
+          <div class="icon">🧭</div>
+          <h3>What I consume</h3>
+          <ul><li>Topics across apps</li><li>World news, finance, movies, books, learning, entertainment…</li><li>How the mix shifts over weeks and months</li></ul>
+        </div>
+        <div class="data-card reveal">
+          <div class="icon">🌤</div>
+          <h3>How it affects me</h3>
+          <ul><li>A quick mood check after sessions</li><li>Shown next to what I was consuming</li></ul>
+        </div>
+        <div class="data-card reveal">
+          <div class="icon">🎯</div>
+          <h3>Chosen vs. pushed</h3>
+          <ul><li>What I went looking for</li><li>What the algorithm or a notification pulled me into</li></ul>
+        </div>
+        <div class="data-card reveal">
+          <div class="icon">✨</div>
+          <h3>Quality &amp; novelty</h3>
+          <ul><li>How varied my sources are</li><li>How often I see the same story retold, and how often I learn something new</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PRIVACY ================= -->
+    <section class="section" style="padding-top:0">
+      <div class="section-head reveal"><div><span class="eyebrow">Privacy by design</span><h2>Personal data, treated that way</h2></div></div>
+      <div class="data-grid cols-2">
+        <div class="data-card reveal"><div class="icon">🖼</div><h3>No images kept</h3><ul><li>Screens are read on the phone, then deleted immediately</li></ul></div>
+        <div class="data-card reveal"><div class="icon">💬</div><h3>Chats stay private</h3><ul><li>Messages and DMs are never read</li></ul></div>
+        <div class="data-card reveal"><div class="icon">🔒</div><h3>Encrypted, then deleted</h3><ul><li>Raw text is encrypted in the cloud and deleted within 30 days</li><li>Only the results are kept</li></ul></div>
+        <div class="data-card reveal"><div class="icon">👤</div><h3>For my eyes only</h3><ul><li>Behind my own login, never shared</li></ul></div>
+      </div>
+    </section>
+
+    <!-- ================= ROADMAP ================= -->
+    <section class="section" style="padding-top:0">
+      <div class="section-head reveal"><div><span class="eyebrow">Roadmap</span><h2>Built in phases</h2></div></div>
+      <!-- EDIT: change a phase's tag to "In progress" or "Done" as you go -->
+      <div class="phases">
+        <div class="phase reveal">
+          <div><h3>iPhone prototype</h3><p>The prompt when a chosen app opens, one-tap start, automatic stop, and reading the screen on the device.</p></div>
+          <span class="tag">Planned</span>
+        </div>
+        <div class="phase reveal">
+          <div><h3>Chrome extension</h3><p>The same reflection for what I read and watch on my laptop.</p></div>
+          <span class="tag">Planned</span>
+        </div>
+        <div class="phase reveal">
+          <div><h3>Cloud analysis</h3><p>Background Wi-Fi uploads, nightly analysis, and automatic 30-day deletion.</p></div>
+          <span class="tag">Planned</span>
+        </div>
+        <div class="phase reveal">
+          <div><h3>Reflection dashboard</h3><p>One private dashboard on the phone and the web.</p></div>
+          <span class="tag">Planned</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="note-box reveal">
+      This project is still an idea. I'll share progress and write about each phase on the <a href="../blog.html">Writing</a> page as I build it.
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Varun Pritham</span>
+      <span><a href="mailto:kcs.varun@gmail.com">Email</a><a href="https://www.linkedin.com/in/varun-pritham">LinkedIn</a><a href="https://github.com/VarunPritham">GitHub</a></span>
+    </div>
+  </footer>
+</body>
+</html>

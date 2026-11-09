@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ideas · Varun Pritham</title>
+  <script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html"><span class="logo-mark">VP</span><span class="logo-name">Varun Pritham</span></a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="ideas.html" aria-current="page">Ideas</a>
+        <a href="blog.html">Writing</a>
+        <a href="shelf.html">Shelf</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+        <button class="icon-btn menu-btn" data-menu-toggle aria-label="Menu" aria-controls="nav" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="page-head">
+      <span class="eyebrow reveal">Ideas</span>
+      <h1 class="reveal">Ideas I want to build</h1>
+      <p class="reveal">Things I'm thinking about and planning to build. Each one grows here as it takes shape.</p>
+    </section>
+
+    <!-- EDIT: one <a class="project"> per project. Thumbnail colors: g1 (orange) g2 (blue) g3 (green) g4 (gold) g5 (purple).
+         Status examples: "Idea", "In progress", "Live". -->
+    <div class="projects">
+      <a class="project featured reveal" href="projects/trading-analysis-platform.html">
+        <div class="thumb g2">
+          <svg viewBox="0 0 320 120" fill="none" aria-hidden="true">
+            <path d="M0 96 L32 82 L64 89 L96 62 L128 70 L160 46 L192 56 L224 31 L256 39 L288 20 L320 12 V120 H0 Z" fill="rgba(255,255,255,.14)"/>
+            <polyline points="0,96 32,82 64,89 96,62 128,70 160,46 192,56 224,31 256,39 288,20 320,12" stroke="rgba(255,255,255,.95)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="320" cy="12" r="5" fill="#fff"/>
+          </svg>
+        </div>
+        <div class="body">
+          <span class="status">Idea</span>
+          <h3>Personal Trading Analysis Platform</h3>
+          <p>I'm currently pursuing the CFA, and this is how I plan to put that learning into practice: one platform for global markets, US economic data, commodities, currencies, crypto and company fundamentals.</p>
+          <div class="tags"><span class="tag">Finance</span><span class="tag">Data</span><span class="tag">Economics</span></div>
+        </div>
+      </a>
+        <a class="project featured reveal" href="projects/digital-self-reflection.html">
+          <div class="thumb g5">
+            <svg viewBox="0 0 320 120" fill="none" aria-hidden="true">
+              <circle cx="160" cy="60" r="46" stroke="rgba(255,255,255,.35)" stroke-width="2"/>
+              <circle cx="160" cy="60" r="30" stroke="rgba(255,255,255,.6)" stroke-width="2.5"/>
+              <circle cx="160" cy="60" r="12" fill="rgba(255,255,255,.95)"/>
+              <path d="M60 60 Q110 22 160 22 T260 60 Q210 98 160 98 T60 60 Z" stroke="rgba(255,255,255,.95)" stroke-width="3" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="body">
+            <span class="status">Idea</span>
+            <h3>Digital Self-Reflection App</h3>
+            <p>Life is limited, and so is attention. An iPhone app and Chrome extension that quietly reflect back what I consume in the apps I choose, so I can look back and decide whether that's where I want my mind to be.</p>
+            <div class="tags"><span class="tag">iOS</span><span class="tag">Chrome extension</span><span class="tag">Data</span></div>
+          </div>
+        </a>
+        <a class="project featured reveal" href="projects/private-recommendation-engine.html">
+          <div class="thumb g3">
+            <svg viewBox="0 0 320 120" fill="none" aria-hidden="true">
+              <g stroke="rgba(255,255,255,.35)" stroke-width="1.5">
+                <line x1="160" y1="60" x2="96" y2="30"/><line x1="160" y1="60" x2="228" y2="26"/>
+                <line x1="160" y1="60" x2="88" y2="92"/><line x1="160" y1="60" x2="236" y2="94"/>
+                <line x1="96" y1="30" x2="40" y2="52"/><line x1="228" y1="26" x2="284" y2="58"/>
+                <line x1="236" y1="94" x2="284" y2="58"/><line x1="88" y1="92" x2="40" y2="52"/>
+              </g>
+              <g fill="rgba(255,255,255,.7)">
+                <circle cx="96" cy="30" r="6"/><circle cx="228" cy="26" r="6"/><circle cx="88" cy="92" r="6"/>
+                <circle cx="236" cy="94" r="6"/><circle cx="40" cy="52" r="4"/><circle cx="284" cy="58" r="4"/>
+              </g>
+              <circle cx="160" cy="60" r="20" stroke="rgba(255,255,255,.5)" stroke-width="2"/>
+              <circle cx="160" cy="60" r="11" fill="#fff"/>
+            </svg>
+          </div>
+          <div class="body">
+            <span class="status">Idea</span>
+            <h3>Private Recommendation Engine</h3>
+            <p>Each person represented as private vectors (tastes, activities, personality) kept on their own device. Recommendations come from people with similar tastes, with every piece of data encrypted, even while it's being matched.</p>
+            <div class="tags"><span class="tag">Privacy</span><span class="tag">Vectors</span><span class="tag">Encryption</span></div>
+          </div>
+        </a>
+        <a class="project featured reveal" href="projects/self-writing-work-journal.html">
+          <div class="thumb g4">
+            <svg viewBox="0 0 320 120" fill="none" aria-hidden="true">
+              <rect x="100" y="14" width="120" height="92" rx="10" stroke="rgba(255,255,255,.95)" stroke-width="3"/>
+              <g stroke="rgba(255,255,255,.95)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M116 38 l6 6 l10 -12"/><path d="M116 62 l6 6 l10 -12"/>
+              </g>
+              <rect x="116" y="80" width="16" height="14" rx="3" stroke="rgba(255,255,255,.7)" stroke-width="2.5"/>
+              <g stroke="rgba(255,255,255,.6)" stroke-width="3" stroke-linecap="round">
+                <line x1="144" y1="40" x2="200" y2="40"/><line x1="144" y1="64" x2="192" y2="64"/><line x1="144" y1="88" x2="204" y2="88"/>
+              </g>
+              <circle cx="240" cy="30" r="8" fill="rgba(255,255,255,.9)"/>
+              <path d="M232 30 h-8 M248 30 h8 M240 22 v-8 M240 38 v8" stroke="rgba(255,255,255,.6)" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="body">
+            <span class="status">Idea</span>
+            <h3>Self-Writing Work Journal</h3>
+            <p>Sticky notes don't remember what I promised in a chat at 4pm. A private journal that writes itself from my emails, chats and meetings, entirely inside company tools, and briefs me each morning on where I left off.</p>
+            <div class="tags"><span class="tag">Productivity</span><span class="tag">Automation</span><span class="tag">AI</span></div>
+          </div>
+        </a>
+    </div>
+
+    <div class="note-box reveal" style="margin-top:20px">More ideas coming soon.</div>
+
+    <div class="cta reveal" style="margin-top:72px">
+      <h2>Want to build something together?</h2>
+      <p>I'm open to collaborations and conversations about markets, data and ideas.</p>
+      <a class="btn btn-primary" href="mailto:kcs.varun@gmail.com">Get in touch <span>→</span></a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Varun Pritham</span>
+      <span><a href="mailto:kcs.varun@gmail.com">Email</a><a href="https://www.linkedin.com/in/varun-pritham">LinkedIn</a><a href="https://github.com/VarunPritham">GitHub</a></span>
+    </div>
+  </footer>
+</body>
+</html>

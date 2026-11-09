@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shelf · Varun Pritham</title>
+  <script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html"><span class="logo-mark">VP</span><span class="logo-name">Varun Pritham</span></a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="ideas.html">Ideas</a>
+        <a href="blog.html">Writing</a>
+        <a href="shelf.html" aria-current="page">Shelf</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+        <button class="icon-btn menu-btn" data-menu-toggle aria-label="Menu" aria-controls="nav" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="page-head">
+      <span class="eyebrow reveal">Shelf</span>
+      <h1 class="reveal">Books, films &amp; shows</h1>
+      <p class="reveal">Stories that stayed with me. This list keeps growing.</p>
+      <nav class="shelf-nav reveal" aria-label="Shelf sections">
+        <a href="#books">Books<span>10</span></a>
+        <a href="#films">Films<span>29</span></a>
+        <a href="#shows">Shows<span>16</span></a>
+      </nav>
+    </section>
+
+    <!-- EDIT: add a line per title. Covers pick their colors automatically.
+         For a real cover image, put <img src="images/cover.jpg" alt=""> inside the .cover div. -->
+    <section class="section shelf-section" id="books" style="padding-top:8px">
+      <div class="section-head reveal"><div><span class="eyebrow">Books</span><h2>Read</h2></div></div>
+      <div class="shelf">
+        <div class="book reveal"><div class="cover"><span class="t">Erdoğan Rising</span><span class="a">Hannah Lucinda Smith</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Range</span><span class="a">David Epstein</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Chaos Monkeys</span><span class="a">Antonio García Martínez</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">The Big Short</span><span class="a">Michael Lewis</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Liar's Poker</span><span class="a">Michael Lewis</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Flash Boys</span><span class="a">Michael Lewis</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Moneyball</span><span class="a">Michael Lewis</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Six Easy Pieces</span><span class="a">Richard Feynman</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Prisoners of Geography</span><span class="a">Tim Marshall</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">The Shiva Trilogy</span><span class="a">Amish Tripathi</span></div></div>
+      </div>
+    </section>
+
+    <section class="section shelf-section" id="films">
+      <div class="section-head reveal"><div><span class="eyebrow">Films</span><h2>Watched &amp; loved</h2></div></div>
+      <div class="shelf compact">
+        <div class="book reveal"><div class="cover"><span class="t">Moneyball</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Fight Club</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">12 Angry Men</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">The Social Network</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">The Trial of the Chicago 7</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Up in the Air</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">The Big Sick</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Kapoor &amp; Sons</span><span class="a">Hindi</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Rockstar</span><span class="a">Hindi</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Tamasha</span><span class="a">Hindi</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Udaan</span><span class="a">Hindi</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">The Curious Case of Benjamin Button</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Silver Linings Playbook</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">American Sniper</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Molly's Game</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Before Sunrise, Sunset &amp; Midnight</span><span class="a">Trilogy</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Dead Poets Society</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Warrior</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Mud</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Rang De Basanti</span><span class="a">Hindi</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Gulmohar</span><span class="a">Hindi</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Jersey</span><span class="a">Telugu</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">1: Nenokkadine</span><span class="a">Telugu</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Ante Sundaraniki</span><span class="a">Telugu</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Pilla Zamindar</span><span class="a">Telugu</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Mahaan</span><span class="a">Tamil</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Raanjhanaa</span><span class="a">Hindi</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Thiruchitrambalam</span><span class="a">Tamil</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Asuran</span><span class="a">Tamil</span></div></div>
+      </div>
+    </section>
+
+    <section class="section shelf-section" id="shows">
+      <div class="section-head reveal"><div><span class="eyebrow">Shows</span><h2>Binged</h2></div></div>
+      <div class="shelf compact">
+        <div class="book reveal"><div class="cover"><span class="t">Fleabag</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">The Office</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">The IT Crowd</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Westworld</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">This Is Us</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Modern Family</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Parenthood</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">How I Met Your Mother</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Big Little Lies</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">The End of the F***ing World</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">White Collar</span><span class="a"></span></div><div class="note">My first ever show</div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Panchayat</span><span class="a">Hindi</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Made in Heaven</span><span class="a">Hindi</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Sacred Games</span><span class="a">Hindi</span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Little Things</span><span class="a"></span></div></div>
+        <div class="book reveal"><div class="cover"><span class="t">Silicon Valley</span><span class="a"></span></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Varun Pritham</span>
+      <span><a href="mailto:kcs.varun@gmail.com">Email</a><a href="https://www.linkedin.com/in/varun-pritham">LinkedIn</a><a href="https://github.com/VarunPritham">GitHub</a></span>
+    </div>
+  </footer>
+</body>
+</html>
