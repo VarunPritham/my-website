@@ -527,3 +527,6 @@ main { padding-bottom: 40px; }
 /* Films and shows look like posters, not books */
 .shelf.compact .cover { border-radius: 8px; padding: 16px 14px 14px; }
 .shelf.compact .cover::before { display: none; }
+
+/* Hidden sections and links stay in the HTML; remove the hidden attribute to show them again */
+[hidden] { display: none !important; }
